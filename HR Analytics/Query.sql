@@ -13,15 +13,7 @@ CREATE TABLE employees (
   Experience_Level VARCHAR(20)
   );
   
-/*drop table employees;
-  
-SET GLOBAL local_infile = 1;
-LOAD DATA LOCAL INFILE 'E:/HR_Project/UPDATED.csv'
-INTO TABLE employees
-FIELDS TERMINATED BY ','
-IGNORE 1 ROWS;
 
-*/
 -- COMPANY SIZE
 select count(*) as Total_employees from employees;
 
